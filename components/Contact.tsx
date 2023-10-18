@@ -5,7 +5,7 @@ function Contact() {
       className="max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col items-center justify-center gap-4"
     >
       <p className="font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide">
-        04. What's Next?
+        04. What&quot;s Next?
       </p>
       <h2 className="font-titleFont text-5xl font-semibold">Get In Touch</h2>
       <p className="max-w-[600px] text-center text-textDark">
@@ -14,7 +14,10 @@ function Contact() {
         minima voluptate adipisci assumenda hic quo minus, a fugit quasi.
       </p>
       <a href="mailto:hoangdean01@gmail.com">
-        <button className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300">
+        <button
+          type="submit"
+          className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+        >
           Say Hi
         </button>
       </a>

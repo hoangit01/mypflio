@@ -5,13 +5,14 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       maxWidth: {
         container: "1440px",
         contentContainer: "1140px",
         containerSmall: "1024px",
-        containerxs: "768px",
+        containerXs: "768px",
       },
       screens: {
         xs: "320px",
@@ -30,7 +31,20 @@ module.exports = {
       boxShadow: {
         navbarShadow: "0 10px 30px -10px rgba(2,12,17,0.7)",
       },
+
+      //color palettes
+      //["#faf3fa", "#293c4d", "#f59427", "#303136", "#67f790", "#27aabf"]
+      //["#111c22", "#243d42", "#cdc47f", "#eddccc", "#b8b3ad"]
+
+      //Burnt Tangerine
       colors: {
+        bodyColor: "#121212",
+        textGreen: "#27aabf",
+        textLight: "#ccd6f6",
+        textDark: "#325068",
+        hoverColor: "#111c22",
+      },
+      colors_Bk: {
         bodyColor: "#0A192F",
         textGreen: "#64ffda",
         textLight: "#ccd6f6",

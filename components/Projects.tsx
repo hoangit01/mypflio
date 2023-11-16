@@ -31,7 +31,7 @@ function Projects() {
               Featured P
             </p>
             <h3 className="text-2xl font-bold">Lorem Clone 2.0</h3>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-[#111c22] text-sm md:text-base p-2 md:p-6 rounded-md">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam itaque velit officiis numquam!{" "}
               <span className="text-textGreen">0-auth</span> consectetur
@@ -90,7 +90,7 @@ function Projects() {
               Featured P
             </p>
             <h3 className="text-2xl font-bold">Lorem Clone 2.1</h3>
-            <p className="bg-[#112240] xl:-mr-16 text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-[#111c22] xl:-mr-16 text-sm md:text-base p-2 md:p-6 rounded-md">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam itaque velit officiis numquam!{" "}
               <span className="text-textGreen">0-auth</span> consectetur
@@ -149,7 +149,7 @@ function Projects() {
               Featured P
             </p>
             <h3 className="text-2xl font-bold">Lorem Clone 2.2</h3>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-[#111c22] text-sm md:text-base p-2 md:p-6 rounded-md">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam itaque velit officiis numquam!{" "}
               <span className="text-textGreen">0-auth</span> consectetur

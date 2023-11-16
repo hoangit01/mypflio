@@ -53,7 +53,7 @@ function Experience() {
   return (
     <section
       id="experience"
-      className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
+      className="max-w-containerXs mx-auto py-10 lgl:py-24 px-4"
     >
       <SectionTitle title="Where I have Worked" titleNo="02"></SectionTitle>
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
@@ -64,7 +64,7 @@ function Experience() {
               workReactbd
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             ReactDB
           </li>
@@ -74,7 +74,7 @@ function Experience() {
               workGoogle
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             Google
           </li>
@@ -84,7 +84,7 @@ function Experience() {
               workApple
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             Apple
           </li>
@@ -94,7 +94,7 @@ function Experience() {
               workAmazon
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             Amazon
           </li>
@@ -104,7 +104,7 @@ function Experience() {
               workSplash
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             Splash
           </li>

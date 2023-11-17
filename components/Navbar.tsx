@@ -47,15 +47,15 @@ const Navbar = () => {
      dark:bg-bodyColor/50 dark:bg-opacity-70 dark:border-white/10"
     >
       <div className="container h-full mx-auto py-1 px-3 font-titleFont flex items-center justify-between">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-        >
-          <a href="/">
+        <Link href="/">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
             <Image className="w-14" src={logo} alt="logo" />
-          </a>
-        </motion.div>
+          </motion.div>
+        </Link>
         <div className="hidden md:inline-flex items-center gap-7">
           <ul className="flex text-sm gap-7">
             <Link

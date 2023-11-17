@@ -39,7 +39,7 @@ export default function Home() {
           >
             <LeftSide></LeftSide>
           </motion.div>
-          <div className="h-[88vh] w-full mx-auto p-4">
+          <div className="h-[88vh] w-full mx-auto bg-slate-100/60 dark:bg-hoverColor/60">
             <Banner></Banner>
             <About></About>
             <Experience></Experience>

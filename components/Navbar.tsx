@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { logo } from "@/public/assets";
+import { logo, myLogo } from "@/public/assets";
 import { MdOutlineClose } from "react-icons/md";
 import { TbBrandGithub } from "react-icons/tb";
 import {
@@ -52,7 +52,9 @@ const Navbar = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Image className="w-14" src={logo} alt="logo" />
+          <a href="/">
+            <Image className="w-14" src={logo} alt="logo" />
+          </a>
         </motion.div>
         <div className="hidden md:inline-flex items-center gap-7">
           <ul className="flex text-sm gap-7">
@@ -195,7 +197,7 @@ const Navbar = () => {
                         ease: "easeIn",
                       }}
                     >
-                      <span className="text-textGreen">01.</span> About
+                      About
                     </motion.li>
                   </Link>
                   <Link

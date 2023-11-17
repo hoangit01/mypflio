@@ -55,7 +55,7 @@ function Experience() {
       id="experience"
       className="max-w-containerXs mx-auto py-10 lgl:py-24 px-4"
     >
-      <SectionTitle title="Where I have Worked" titleNo="02"></SectionTitle>
+      <SectionTitle title="Work Experience" titleNo="02"></SectionTitle>
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li

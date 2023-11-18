@@ -48,7 +48,6 @@ const ThemeSwitch = () => {
         ) : (
           <BiMoon className={styleMode} />
         )}
-        {/* <BiMoon /> */}
       </motion.button>
     </div>
   );

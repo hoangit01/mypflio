@@ -32,7 +32,7 @@ function About() {
               <span className="text-textGreen">
                 <AiFillThunderbolt></AiFillThunderbolt>
               </span>
-              Javascript (ES6+)
+              ReactJS
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -44,7 +44,25 @@ function About() {
               <span className="text-textGreen">
                 <AiFillThunderbolt></AiFillThunderbolt>
               </span>
-              Javascript (ES6+)
+              HTML5 - CSS3
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt></AiFillThunderbolt>
+              </span>
+              SASS/SCSS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt></AiFillThunderbolt>
+              </span>
+              Tailwind CSS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt></AiFillThunderbolt>
+              </span>
+              Bootstrap 5
             </li>
           </ul>
         </div>

@@ -46,14 +46,14 @@ const Navbar = () => {
      bg-white bg-opacity-70 backdrop-blur-lg border-b border-black/10
      dark:bg-bodyColor/50 dark:bg-opacity-70 dark:border-white/10"
     >
-      <div className="container h-full mx-auto py-1 px-3 font-titleFont flex items-center justify-between">
+      <div className="container h-full mx-auto py-1 px-4 font-titleFont flex items-center justify-between">
         <Link href="/">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <Image className="w-14" src={logo} alt="logo" />
+            <Image className="w-14" priority={true} src={logo} alt="logo" />
           </motion.div>
         </Link>
         <div className="hidden md:inline-flex items-center gap-7">
@@ -131,7 +131,7 @@ const Navbar = () => {
               transition={{ delay: 0.6 }}
               className="px-4 py-2 rounded-md text-[13px] text-textGreen border border-textGreen hover:bg-hoverColor duration-300"
             >
-              Phone
+              Buy me a coffee ☕
             </motion.button>
           </a>
         </div>
@@ -160,7 +160,7 @@ const Navbar = () => {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-textLight dark:bg-slate-900 dark:backdrop-blur-lg 
+              className="w-[80%] h-full overflow-y-scroll scrollbarHide backdrop-blur-xl bg-white bg-opacity-90 dark:bg-black dark:bg-opacity-80
               flex flex-col items-center px-4 py-10 relative"
             >
               <MdOutlineClose
@@ -260,9 +260,9 @@ const Navbar = () => {
                       delay: 0.6,
                       ease: "easeIn",
                     }}
-                    className="w-32 h-10 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+                    className="px-4 py-3 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
                   >
-                    Resume
+                    Buy me a coffee ☕
                   </motion.button>
                 </a>
                 {/** Small icon mobile */}

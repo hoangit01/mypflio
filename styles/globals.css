@@ -6,3 +6,7 @@
   color: #27aabf;
   /*#64ffa*/
 }
+
+.wrm-vertical {
+  writing-mode: vertical-lr;
+}

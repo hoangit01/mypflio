@@ -39,8 +39,8 @@ export default function Home() {
           >
             <LeftSide></LeftSide>
           </motion.div>
-          <div className="h-[88vh] w-full mx-auto bg-slate-100/60 dark:bg-hoverColor/60">
-            <Banner></Banner>
+          <Banner></Banner>
+          <div className="h-[88vh] p-4 w-full mx-auto">
             <About></About>
             <Experience></Experience>
             <Projects></Projects>

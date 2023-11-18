@@ -139,7 +139,7 @@ function Projects() {
               <Image
                 className="w-full h-full object-contain"
                 src={noorShop}
-                alt="noorShop"
+                alt="projectImg"
               ></Image>
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>

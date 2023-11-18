@@ -41,6 +41,7 @@ module.exports = {
         bodyColor: "#121212",
         textGreen: "#27aabf",
         textLight: "#ccd6f6",
+        textYellow: "#f59427",
         textDark: "#325068",
         hoverColor: "#111c22",
       },

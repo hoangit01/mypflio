@@ -43,21 +43,21 @@ function Archive() {
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
+          link="#archive1"
         />
         <ArchiveCard
           title="Cyber Security Blog with live comments section"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          link="#archive1"
         />
         <ArchiveCard
           title="ReactBD web development company"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
+          link="#archive1"
         />
         {showMore && (
           <>

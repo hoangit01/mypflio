@@ -1,8 +1,7 @@
-import logo from "./images/logo.png";
 import myLogo from "./images/aleph-96.png";
-import profileImg from "./images/profile.jpg";
-import amazonImg from "./images/amazonImg.png";
-import cyberImg from "./images/cyberBlog.png";
-import noorShop from "./images/noorShop.png";
+import myLogoBlue from "./images/aleph-96-blue.png";
+import profileImg from "./images/avt-profile.png";
+import profileImgAi from "./images/avatar-ai.png";
+import projectImg from "./images/project-wireframe.jpg";
 
-export { logo, myLogo, profileImg, amazonImg, cyberImg, noorShop };
+export { myLogo, myLogoBlue, profileImg, profileImgAi, projectImg };

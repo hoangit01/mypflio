@@ -39,6 +39,7 @@ const ThemeSwitch = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.7 }}
+        aria-label="modeTheme"
         className="text-textDark bg-white/25 bg-opacity-70 w-[3rem] h-[3rem] backdrop-blur-[0.5rem] border border-textLight border-opacity-40 shadow-2xl rounded-full
           flex items-center justify-center group/switchIcon transition-all dark:bg-black/10 dark:text-textLight"
         onClick={toggleTheme}

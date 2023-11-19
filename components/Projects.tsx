@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
+import { projectImg } from "@/public/assets";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
@@ -19,18 +19,20 @@ function Projects() {
           >
             <div>
               <Image
-                className="w-full h-full object-contain rounded-lg"
-                src={amazonImg}
-                alt="amazonImg"
+                className="w-full h-full object-contain rounded-lg grayscale group-hover:grayscale-0 transition-all duration-100"
+                src={projectImg}
+                alt="Project Building"
               ></Image>
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full rounded-lg top-0 left-0  duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <p className="font-titleFont text-textGreen text-sm tracking-wide">
               Featured P
             </p>
-            <h3 className="text-2xl font-bold">Lorem Clone 2.0</h3>
+            <h3 className="text-2xl font-bold text-textDark dark:text-textLight">
+              Lorem Clone 2.0
+            </h3>
             <p className="bg-[#111c22] text-sm md:text-base p-2 md:p-6 rounded-md">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam itaque velit officiis numquam!{" "}
@@ -49,6 +51,7 @@ function Projects() {
                 className="hover:text-textGreen duration-300"
                 href="#"
                 target="_blank"
+                aria-label="Link to Social Account"
               >
                 <TbBrandGithub></TbBrandGithub>
               </a>
@@ -56,6 +59,7 @@ function Projects() {
                 className="hover:text-textGreen duration-300"
                 href="#"
                 target="_blank"
+                aria-label="Link to Social Account"
               >
                 <AiOutlineYoutube></AiOutlineYoutube>
               </a>
@@ -63,6 +67,7 @@ function Projects() {
                 className="hover:text-textGreen duration-300"
                 href="#"
                 target="_blank"
+                aria-label="Link to Social Account"
               >
                 <RxOpenInNewWindow></RxOpenInNewWindow>
               </a>
@@ -78,18 +83,20 @@ function Projects() {
           >
             <div>
               <Image
-                className="w-full h-full object-contain rounded-lg"
-                src={cyberImg}
+                className="w-full h-full object-contain rounded-lg grayscale group-hover:grayscale-0 transition-all duration-100"
+                src={projectImg}
                 alt="cyberImg"
               ></Image>
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full rounded-lg top-0 left-0  duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
             <p className="font-titleFont text-textGreen text-sm tracking-wide">
               Featured P
             </p>
-            <h3 className="text-2xl font-bold">Lorem Clone 2.1</h3>
+            <h3 className="text-2xl font-bold text-textDark dark:text-textLight">
+              Lorem Clone 2.1
+            </h3>
             <p className="bg-[#111c22] xl:-mr-16 text-sm md:text-base p-2 md:p-6 rounded-md">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam itaque velit officiis numquam!{" "}
@@ -108,6 +115,7 @@ function Projects() {
                 className="hover:text-textGreen duration-300"
                 href="#"
                 target="_blank"
+                aria-label="Link to Social Account"
               >
                 <TbBrandGithub></TbBrandGithub>
               </a>
@@ -115,6 +123,7 @@ function Projects() {
                 className="hover:text-textGreen duration-300"
                 href="#"
                 target="_blank"
+                aria-label="Link to Social Account"
               >
                 <AiOutlineYoutube></AiOutlineYoutube>
               </a>
@@ -122,6 +131,7 @@ function Projects() {
                 className="hover:text-textGreen duration-300"
                 href="#"
                 target="_blank"
+                aria-label="Link to Social Account"
               >
                 <RxOpenInNewWindow></RxOpenInNewWindow>
               </a>
@@ -137,18 +147,20 @@ function Projects() {
           >
             <div>
               <Image
-                className="w-full h-full object-contain"
-                src={noorShop}
+                className="w-full h-full object-contain rounded-lg grayscale group-hover:grayscale-0 transition-all duration-100"
+                src={projectImg}
                 alt="projectImg"
               ></Image>
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full rounded-lg top-0 left-0  duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <p className="font-titleFont text-textGreen text-sm tracking-wide">
               Featured P
             </p>
-            <h3 className="text-2xl font-bold">Lorem Clone 2.2</h3>
+            <h3 className="text-2xl font-bold text-textDark dark:text-textLight">
+              Lorem Clone 2.2
+            </h3>
             <p className="bg-[#111c22] text-sm md:text-base p-2 md:p-6 rounded-md">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam itaque velit officiis numquam!{" "}
@@ -167,6 +179,7 @@ function Projects() {
                 className="hover:text-textGreen duration-300"
                 href="#"
                 target="_blank"
+                aria-label="Link to Social Account"
               >
                 <TbBrandGithub></TbBrandGithub>
               </a>
@@ -174,6 +187,7 @@ function Projects() {
                 className="hover:text-textGreen duration-300"
                 href="#"
                 target="_blank"
+                aria-label="Link to Social Account"
               >
                 <AiOutlineYoutube></AiOutlineYoutube>
               </a>
@@ -181,6 +195,7 @@ function Projects() {
                 className="hover:text-textGreen duration-300"
                 href="#"
                 target="_blank"
+                aria-label="Link to Social Account"
               >
                 <RxOpenInNewWindow></RxOpenInNewWindow>
               </a>

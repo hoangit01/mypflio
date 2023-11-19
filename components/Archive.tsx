@@ -39,21 +39,21 @@ function Archive() {
           link="#archive1"
         ></ArchiveCard>
         <ArchiveCard
-          title="Educare Engligh Learning Academy"
+          title="Project Personal Development 1"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
           link="#archive1"
         />
         <ArchiveCard
-          title="Cyber Security Blog with live comments section"
+          title="Project Personal Development"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
           link="#archive1"
         />
         <ArchiveCard
-          title="ReactBD web development company"
+          title="Project Personal Development 1"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}

@@ -46,9 +46,10 @@ function Banner() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
+          type="button"
           className="w-52 h-14 text-sm capitalize font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
         >
-          Check out
+          Contact now
         </motion.button>
       </div>
     </section>

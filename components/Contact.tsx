@@ -5,7 +5,7 @@ function Contact() {
       className="max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col items-center justify-center gap-4"
     >
       <p className="font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide">
-        04. What&quot;s Next?
+        Contact For Work
       </p>
       <h2 className="font-titleFont text-5xl font-semibold">Get In Touch</h2>
       <p className="max-w-[600px] text-center text-textDark">

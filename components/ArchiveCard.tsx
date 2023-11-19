@@ -22,7 +22,7 @@ function ArchiveCard({ title, des, listItem, link }: Props) {
           </h2>
           <p className="text-sm mt-3">{des}</p>
         </div>
-        <ul className="text-xs mdl:text-sm text-textDark flex justify-center items-center gap-6 flex-wrap">
+        <ul className="text-xs mdl:text-sm text-textDark flex justify-start items-center gap-6 flex-wrap">
           {listItem.map((item, i) => (
             <li key={i}>{item}</li>
           ))}

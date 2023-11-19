@@ -1,7 +1,7 @@
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
 import Image from "next/image";
-import { profileImg } from "@/public/assets";
+import { profileImg, profileImgAi } from "@/public/assets";
 
 function About() {
   return (
@@ -70,11 +70,11 @@ function About() {
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <Image
-                className="rounded-lg h-full object-cover"
-                src={profileImg}
-                alt="profileImg"
+                className="rounded-xl bg-gradient-to-bl from-textGreen via-textLight to-textDark h-full object-cover shadow-lg"
+                src={profileImgAi}
+                alt="profile image"
               ></Image>
-              <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="hidden lgl:inline-block absolute w-full h-80  group-hover:bg-textGreen/10 rounded-md top-0 left-0 duration-300"></div>
             </div>
           </div>
           <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300"></div>

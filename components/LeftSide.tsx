@@ -15,27 +15,27 @@ const LeftSide = () => {
 
   return (
     <div className="w-full h-full flex flex-col items-center justify-end gap-4 text-textLight">
-      <a href="/" target="_blank">
+      <a href="/" target="_blank" aria-label="Link to Social Account">
         <span className={LeftSideIconStyle}>
           <TbBrandGithub></TbBrandGithub>
         </span>
       </a>
-      <a href="/" target="_blank">
+      <a href="/" target="_blank" aria-label="Link to Social Account">
         <span className={LeftSideIconStyle}>
           <SlSocialYoutube></SlSocialYoutube>
         </span>
       </a>
-      <a href="/" target="_blank">
+      <a href="/" target="_blank" aria-label="Link to Social Account">
         <span className={LeftSideIconStyle}>
           <SlSocialLinkedin></SlSocialLinkedin>
         </span>
       </a>
-      <a href="/" target="_blank">
+      <a href="/" target="_blank" aria-label="Link to Social Account">
         <span className={LeftSideIconStyle}>
           <SlSocialFacebook></SlSocialFacebook>
         </span>
       </a>
-      <a href="/" target="_blank">
+      <a href="/" target="_blank" aria-label="Link to Social Account">
         <span className={LeftSideIconStyle}>
           <SlSocialInstagram></SlSocialInstagram>
         </span>

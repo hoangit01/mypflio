@@ -35,7 +35,7 @@ function Banner() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
           risus in hendrerit gravida rutrum quisque non tellus orci.&nbsp;
-          <a href="" target="_blank">
+          <a href="#" target="_blank" aria-label="Learn more about me">
             <span className="text-textGreen text-base inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
               Learn more
               <span className="w-full h-[1px] bg-textGreen absolute left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>

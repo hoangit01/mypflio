@@ -136,7 +136,7 @@ const Navbar = () => {
               </Link>
             </motion.li>
           </ul>
-          <a href="/" target="_blank">
+          <a href="https://www.buymeacoffee.com/khaihoang01" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -266,7 +266,10 @@ const Navbar = () => {
                     </Link>
                   </motion.li>
                 </ul>
-                <a href="#cv" target="_blank">
+                <a
+                  href="https://www.buymeacoffee.com/khaihoang01"
+                  target="_blank"
+                >
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}

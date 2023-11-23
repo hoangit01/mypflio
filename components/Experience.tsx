@@ -2,9 +2,6 @@ import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import ReactBD from "./works/ReactBD";
 import Google from "./works/Google";
-import Apple from "./works/Apple";
-import Amazon from "./works/Amazon";
-import Splash from "./works/Splash";
 
 function Experience() {
   const [workReactbd, setWorkReactbd] = useState(true);
@@ -16,38 +13,11 @@ function Experience() {
   const handleReactbd = () => {
     setWorkReactbd(true);
     setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(false);
   };
 
   const handleGoogle = () => {
     setWorkReactbd(false);
     setWorkGoogle(true);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(false);
-  };
-  const handleApple = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(true);
-    setWorkSplash(false);
-    setWorkAmazon(false);
-  };
-  const handleSplash = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(true);
-    setWorkAmazon(false);
-  };
-  const handleAmazon = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(true);
   };
 
   return (
@@ -57,63 +27,30 @@ function Experience() {
     >
       <SectionTitle title="Work Experience" titleNo="02"></SectionTitle>
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
-        <ul className="md:w-32 flex flex-col">
+        <ul className="md:w-32 xl:w-4/12 flex flex-col">
           <li
             onClick={handleReactbd}
             className={`${
               workReactbd
                 ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+                : "border-l-textLight text-textLight dark:border-l-hoverColor dark:text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-6 font-medium`}
           >
-            ReactDB
+            Digityze Asia
           </li>
           <li
             onClick={handleGoogle}
             className={`${
               workGoogle
                 ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+                : "border-l-textLight text-textLight dark:border-l-hoverColor dark:text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-6 font-medium`}
           >
-            Google
-          </li>
-          <li
-            onClick={handleApple}
-            className={`${
-              workApple
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Apple
-          </li>
-          <li
-            onClick={handleAmazon}
-            className={`${
-              workAmazon
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Amazon
-          </li>
-          <li
-            onClick={handleSplash}
-            className={`${
-              workSplash
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#111c22] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Splash
+            Lorem
           </li>
         </ul>
         {workReactbd && <ReactBD></ReactBD>}
         {workGoogle && <Google></Google>}
-        {workApple && <Apple></Apple>}
-        {workSplash && <Splash></Splash>}
-        {workAmazon && <Amazon></Amazon>}
       </div>
     </section>
   );

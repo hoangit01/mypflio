@@ -35,11 +35,9 @@ function Projects() {
             </h3>
             <p className="bg-[#111c22] text-sm md:text-base p-2 md:p-6 rounded-md">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam itaque velit officiis numquam!{" "}
-              <span className="text-textGreen">0-auth</span> consectetur
-              laboriosam <span className="text-textGreen">Praesentium</span>
+              Laboriosam itaque velit officiis numquam!
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-normal font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Wordpress</li>
               <li>NextJs</li>
               <li>TypeScript</li>
@@ -99,9 +97,7 @@ function Projects() {
             </h3>
             <p className="bg-[#111c22] xl:-mr-16 text-sm md:text-base p-2 md:p-6 rounded-md">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam itaque velit officiis numquam!{" "}
-              <span className="text-textGreen">0-auth</span> consectetur
-              laboriosam <span className="text-textGreen">Praesentium</span>
+              Laboriosam itaque velit officiis numquam!
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Wordpress</li>
@@ -163,9 +159,7 @@ function Projects() {
             </h3>
             <p className="bg-[#111c22] text-sm md:text-base p-2 md:p-6 rounded-md">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam itaque velit officiis numquam!{" "}
-              <span className="text-textGreen">0-auth</span> consectetur
-              laboriosam <span className="text-textGreen">Praesentium</span>
+              Laboriosam itaque velit officiis numquam! consectetur laboriosam
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Wordpress</li>

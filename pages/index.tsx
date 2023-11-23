@@ -26,10 +26,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
-        className="w-full h-screen bg-white dark:bg-bodyColor font-bodyFont text-textLight 
+        className="relative z-10 w-full h-screen bg-white dark:bg-bodyColor font-bodyFont text-textLight 
         overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-track-textDark/20 scrollbar-thumb-textDark/60
         scrollbar-thumb-rounded-full"
       >
+        <div className="bg-textLight dark:bg-bodyColor -z-10 absolute top-[6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem]  sm:w-[68.75rem]"></div>
+        <div
+          className="bg-[#dbd7fb] dark:bg-slate-800 -z-10 absolute top-[6rem] left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem]  sm:w-[68.75rem]
+        md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"
+        ></div>
+
         <Navbar></Navbar>
         <div className="w-full h-full xl:flex items-center gap-20 justify-between">
           <motion.div

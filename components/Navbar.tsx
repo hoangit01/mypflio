@@ -41,16 +41,16 @@ const Navbar = () => {
   }
 
   const navLinkStyle = `
-  flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link`;
+  flex items-center gap-1 max-md:text-md font-semibold text-textDark dark:text-textLight/90 hover:text-textGreen cursor-pointer duration-300 nav-link`;
   const MobileIconStyle = `w-10 h-10 text-xl text-textDark/70 hover:text-textDark
     bg-textLight/80 border border-textLight hover:border-textLight/90 hover:bg-textLight/100
-    dark:bg-hoverColor/70 dark:border-hoverColor/70 dark:hover:text-textGreen rounded-full 
+    dark:bg-hoverColor/70 dark:border-hoverColor/70 dark:text-textLight/30 dark:hover:text-textGreen rounded-full 
     rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300`;
   return (
     <div
       className="w-full mx-auto h-20 lg:h-[4rem] sticky top-0 z-50
-     bg-white bg-opacity-70 backdrop-blur-lg border-b border-black/10
-     dark:bg-bodyColor/50 dark:bg-opacity-70 dark:border-white/10"
+     bg-transparent backdrop-blur-lg
+      dark:border-white/10"
     >
       <div className="mdl:max-w-contentContainer max-w-containerXs h-full mx-auto py-1 px-4 font-titleFont flex items-center justify-between">
         <Link href="/">
@@ -141,7 +141,7 @@ const Navbar = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
-              className="px-4 py-2 rounded-md text-[13px] text-textGreen border border-textGreen hover:bg-hoverColor duration-300"
+              className="px-4 py-2 rounded-md font-semibold text-[13px] text-textGreen border border-textGreen hover:bg-hoverColor duration-300"
             >
               Buy me a coffee ☕
             </motion.button>
@@ -277,7 +277,7 @@ const Navbar = () => {
                       delay: 0.6,
                       ease: "easeIn",
                     }}
-                    className="px-4 py-3 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+                    className="px-4 py-3 font-semibold rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
                   >
                     Buy me a coffee ☕
                   </motion.button>

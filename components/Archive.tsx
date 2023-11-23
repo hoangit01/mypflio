@@ -6,8 +6,8 @@ function Archive() {
   const [showMore, setShowMore] = useState(false);
   return (
     <div className="max-w-contentContainer mx-auto px-4 py-24">
-      <div className="w-full flex flex-col items-center">
-        <h2 className="text-3xl font-titleFont font-semibold">
+      <div className="w-full flex flex-col items-center text-left">
+        <h2 className="text-2xl xl:text-3xl font-titleFont font-semibold text-textGreen dark:text-textLight">
           Other Noteworthy Projects
         </h2>
         <p className="text-sm font-titleFont text-textGreen">
@@ -145,6 +145,7 @@ function Archive() {
       <div className="mt-12 flex items-center justify-center">
         {showMore ? (
           <button
+            type="button"
             onClick={() => setShowMore(false)}
             className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
           >
@@ -152,6 +153,7 @@ function Archive() {
           </button>
         ) : (
           <button
+            type="button"
             onClick={() => setShowMore(true)}
             className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
           >

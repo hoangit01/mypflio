@@ -13,17 +13,16 @@ function About() {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="ww-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut{" "}
-            <span className="text-textGreen">
-              labore et dolore magna aliqua.
-            </span>{" "}
-            Semper risus in hendrerit gravida rutrum quisque non tellus orci.
+            My working is creating{" "}
+            <span className="text-textGreen">user-friendly</span> and
+            aesthetically pleasing websites and applications that bring an
+            excellent <span className="text-textGreen">user-experience</span>.
           </p>
           <p>
-            Diam phasellus vestibulum lorem sed risus ultricies tristique nulla
-            aliquet. Id eu nisl nunc mi ipsum. Vel turpis nunc eget lorem dolor
-            <span className="text-textGreen"> sed viverra ipsum.</span>
+            I use design principles, user research, prototyping, testing, and
+            collaboration tools to create responsive and interactive web
+            products that meet the needs and{" "}
+            <span className="text-textGreen">expectations</span> of the users.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           {/** List Technologies Working */}
@@ -70,8 +69,11 @@ function About() {
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <Image
-                className="rounded-xl bg-gradient-to-bl from-textGreen via-textLight to-textDark h-full object-cover shadow-lg"
+                className="rounded-xl bg-gradient-to-bl from-textGreen via-textLight to-textDark 
+                dark:from-bodyColor dark:via-textDark dark:to-textGreen
+                h-full object-cover shadow-lg"
                 src={profileImgAi}
+                placeholder="blur"
                 alt="profile image"
               ></Image>
               <div className="hidden lgl:inline-block absolute w-full h-80  group-hover:bg-textGreen/10 rounded-md top-0 left-0 duration-300"></div>

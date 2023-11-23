@@ -18,7 +18,7 @@ function Banner() {
           transition={{ duration: 0.5, delay: 0.7 }}
           className="text-3xl text-textGreen  lgl:text-6xl font-titleFont font-semibold flex flex-col"
         >
-          I'm Hoang
+          I&rsquo;m Hoang
           <span className="text-textDark mt-2 lgl:mt-4">
             Front-end Developer
           </span>

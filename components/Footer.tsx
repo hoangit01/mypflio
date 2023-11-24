@@ -1,10 +1,3 @@
-import { TbBrandGithub } from "react-icons/tb";
-import {
-  SlSocialYoutube,
-  SlSocialLinkedin,
-  SlSocialFacebook,
-  SlSocialInstagram,
-} from "react-icons/sl";
 function Footer() {
   return (
     <section className="max-w-contentContainer mx-auto px-4 pb-[2rem]">

@@ -4,13 +4,14 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { myLogo, myLogoBlue } from "@/public/assets";
 import { MdOutlineClose } from "react-icons/md";
-import { TbBrandGithub } from "react-icons/tb";
 import {
-  SlSocialYoutube,
-  SlSocialLinkedin,
-  SlSocialFacebook,
-  SlSocialInstagram,
-} from "react-icons/sl";
+  BiLogoGithub,
+  BiLogoLinkedin,
+  BiLogoInstagramAlt,
+  BiLogoFacebook,
+  BiLogoYoutube,
+  BiChevronRight,
+} from "react-icons/bi";
 import ThemeSwitch from "./ThemeSwitch";
 
 const Navbar = () => {
@@ -41,7 +42,9 @@ const Navbar = () => {
   }
 
   const navLinkStyle = `
-  flex items-center gap-1 max-md:text-md font-semibold text-textDark dark:text-textLight/90 hover:text-textGreen cursor-pointer duration-300 nav-link`;
+  flex items-center gap-1 max-md:text-md font-semibold text-textGreen/60 hover:text-textGreen cursor-pointer duration-300 nav-link`;
+  const navLinkStyleMobile = `
+  navlink-mobile flex items-center gap-1 px-4 py-2 bg-white/80 hover:bg-textGreen/20 dark:bg-textGreen/20 hover:dark:text-white hover:dark:bg-textGreen rounded-lg max-md:text-md font-semibold text-textDark dark:text-textGreen cursor-pointer duration-300 nav-link`;
   const MobileIconStyle = `w-10 h-10 text-xl text-textDark/70 hover:text-textDark
     bg-textLight/80 border border-textLight hover:border-textLight/90 hover:bg-textLight/100
     dark:bg-hoverColor/70 dark:border-hoverColor/70 dark:text-textLight/30 dark:hover:text-textGreen rounded-full 
@@ -89,7 +92,7 @@ const Navbar = () => {
             >
               <Link
                 href="#about"
-                className={`"" && ${navLinkStyle}`}
+                className={`${navLinkStyle}`}
                 onClick={handleScroll}
               >
                 About
@@ -103,7 +106,7 @@ const Navbar = () => {
             >
               <Link
                 href="#experience"
-                className={`"" && ${navLinkStyle}`}
+                className={` ${navLinkStyle}`}
                 onClick={handleScroll}
               >
                 Experience
@@ -116,7 +119,7 @@ const Navbar = () => {
             >
               <Link
                 href="#project"
-                className={`"" && ${navLinkStyle}`}
+                className={` ${navLinkStyle}`}
                 onClick={handleScroll}
               >
                 Project
@@ -129,7 +132,7 @@ const Navbar = () => {
             >
               <Link
                 href="#contact"
-                className={`"" && ${navLinkStyle}`}
+                className={` ${navLinkStyle}`}
                 onClick={handleScroll}
               >
                 Contact
@@ -173,7 +176,7 @@ const Navbar = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
               className="w-[80%] h-full overflow-y-scroll scrollbarHide backdrop-blur-xl bg-white bg-opacity-90 dark:bg-black dark:bg-opacity-80
-              flex flex-col items-center px-4 py-10 relative"
+              flex flex-col items-center justify-center px-4 py-10 relative"
             >
               <MdOutlineClose
                 onClick={() => setShowMenu(false)}
@@ -182,8 +185,8 @@ const Navbar = () => {
               ></MdOutlineClose>
 
               {/** Nav mobile */}
-              <div className="flex flex-col items-center gap-7">
-                <ul className="flex flex-col text-[13px] gap-7">
+              <div className="flex flex-col justify-center items-center gap-5">
+                <ul className="flex flex-col text-[13px] w-full gap-2">
                   <motion.li
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
@@ -191,7 +194,7 @@ const Navbar = () => {
                   >
                     <Link
                       href="#home"
-                      className={`"" && ${navLinkStyle}`}
+                      className={`${navLinkStyleMobile}`}
                       onClick={handleScroll}
                     >
                       Home
@@ -208,7 +211,7 @@ const Navbar = () => {
                   >
                     <Link
                       href="#about"
-                      className={`"" && ${navLinkStyle}`}
+                      className={` ${navLinkStyleMobile}`}
                       onClick={handleScroll}
                     >
                       About
@@ -225,7 +228,7 @@ const Navbar = () => {
                   >
                     <Link
                       href="#experience"
-                      className={`"" && ${navLinkStyle}`}
+                      className={` ${navLinkStyleMobile}`}
                       onClick={handleScroll}
                     >
                       Experience
@@ -242,7 +245,7 @@ const Navbar = () => {
                   >
                     <Link
                       href="#project"
-                      className={`"" && ${navLinkStyle}`}
+                      className={` ${navLinkStyleMobile}`}
                       onClick={handleScroll}
                     >
                       Project
@@ -259,7 +262,7 @@ const Navbar = () => {
                   >
                     <Link
                       href="#contact"
-                      className={`"" && ${navLinkStyle}`}
+                      className={` ${navLinkStyleMobile}`}
                       onClick={handleScroll}
                     >
                       Contact
@@ -269,6 +272,8 @@ const Navbar = () => {
                 <a
                   href="https://www.buymeacoffee.com/khaihoang01"
                   target="_blank"
+                  aria-label="buymeacoffee"
+                  className="mx-auto"
                 >
                   <motion.button
                     initial={{ opacity: 0 }}
@@ -293,7 +298,7 @@ const Navbar = () => {
                   className="w-full h-0.5 bg-textLight dark:bg-textDark/50 mt-5"
                 ></motion.div>
 
-                {/** Small icon mobile */}
+                {/** Small social icon mobile */}
                 <div className="flex gap-4 mt-2 mb-4">
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
@@ -306,7 +311,7 @@ const Navbar = () => {
                     target="_blank"
                   >
                     <span className={`${MobileIconStyle}`}>
-                      <TbBrandGithub></TbBrandGithub>
+                      <BiLogoGithub />
                     </span>
                   </motion.a>
                   <motion.a
@@ -320,7 +325,7 @@ const Navbar = () => {
                     target="_blank"
                   >
                     <span className={`${MobileIconStyle}`}>
-                      <SlSocialYoutube></SlSocialYoutube>
+                      <BiLogoYoutube />
                     </span>
                   </motion.a>
                   <motion.a
@@ -334,7 +339,7 @@ const Navbar = () => {
                     target="_blank"
                   >
                     <span className={`${MobileIconStyle}`}>
-                      <SlSocialLinkedin></SlSocialLinkedin>
+                      <BiLogoLinkedin />
                     </span>
                   </motion.a>
                   <motion.a
@@ -348,7 +353,21 @@ const Navbar = () => {
                     target="_blank"
                   >
                     <span className={`${MobileIconStyle}`}>
-                      <SlSocialFacebook></SlSocialFacebook>
+                      <BiLogoFacebook />
+                    </span>
+                  </motion.a>
+                  <motion.a
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{
+                      delay: 1,
+                      ease: "easeIn",
+                    }}
+                    href="#"
+                    target="_blank"
+                  >
+                    <span className={`${MobileIconStyle}`}>
+                      <BiLogoInstagramAlt />
                     </span>
                   </motion.a>
                 </div>

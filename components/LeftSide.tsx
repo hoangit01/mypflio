@@ -1,10 +1,10 @@
-import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialYoutube } from "react-icons/sl";
 import {
-  SlSocialLinkedin,
-  SlSocialFacebook,
-  SlSocialInstagram,
-} from "react-icons/sl";
+  BiLogoGithub,
+  BiLogoLinkedin,
+  BiLogoInstagramAlt,
+  BiLogoFacebook,
+  BiLogoYoutube,
+} from "react-icons/bi";
 
 const LeftSide = () => {
   const LeftSideIconStyle = `w-10 h-10 text-xl text-textDark/70 hover:text-textDark
@@ -17,27 +17,27 @@ const LeftSide = () => {
     <div className="w-full h-full flex flex-col items-center justify-end gap-4 text-textLight">
       <a href="/" target="_blank" aria-label="Link to Social Account">
         <span className={LeftSideIconStyle}>
-          <TbBrandGithub></TbBrandGithub>
+          <BiLogoGithub />
         </span>
       </a>
       <a href="/" target="_blank" aria-label="Link to Social Account">
         <span className={LeftSideIconStyle}>
-          <SlSocialYoutube></SlSocialYoutube>
+          <BiLogoYoutube />
         </span>
       </a>
       <a href="/" target="_blank" aria-label="Link to Social Account">
         <span className={LeftSideIconStyle}>
-          <SlSocialLinkedin></SlSocialLinkedin>
+          <BiLogoLinkedin />
         </span>
       </a>
       <a href="/" target="_blank" aria-label="Link to Social Account">
         <span className={LeftSideIconStyle}>
-          <SlSocialFacebook></SlSocialFacebook>
+          <BiLogoFacebook />
         </span>
       </a>
       <a href="/" target="_blank" aria-label="Link to Social Account">
         <span className={LeftSideIconStyle}>
-          <SlSocialInstagram></SlSocialInstagram>
+          <BiLogoInstagramAlt />
         </span>
       </a>
       <div className="w-[2px] h-32 bg-textLight dark:bg-textDark/50"></div>

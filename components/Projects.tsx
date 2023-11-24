@@ -37,7 +37,7 @@ function Projects() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam itaque velit officiis numquam!
             </p>
-            <ul className="text-xs md:text-sm font-normal font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark dark:text-textLight/70">
               <li>Wordpress</li>
               <li>NextJs</li>
               <li>TypeScript</li>
@@ -99,7 +99,7 @@ function Projects() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam itaque velit officiis numquam!
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark dark:text-textLight/70">
               <li>Wordpress</li>
               <li>NextJs</li>
               <li>TypeScript</li>
@@ -161,7 +161,7 @@ function Projects() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam itaque velit officiis numquam! consectetur laboriosam
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark dark:text-textLight/70">
               <li>Wordpress</li>
               <li>NextJs</li>
               <li>TypeScript</li>
